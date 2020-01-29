@@ -19,3 +19,8 @@ func Debug(msg ...interface{}) {
 func Error(msg ...interface{}) {
 	logger.Error(msg)
 }
+
+//Fatal fatal
+func Fatal(msg ...interface{}) {
+	logger.Fatal(msg)
+}
