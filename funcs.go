@@ -2,25 +2,45 @@ package logger
 
 //Warn warn
 func Warn(msg ...interface{}) {
-	logger.Warn(msg)
+	arclogger.Warn(msg...)
 }
 
 //Info info
 func Info(msg ...interface{}) {
-	logger.Info(msg)
+	arclogger.Info(msg...)
+}
+
+//Infof infof
+func Infof(msg ...interface{}) {
+	arclogger.Infof(msg...)
 }
 
 //Debug debug
 func Debug(msg ...interface{}) {
-	logger.Debug(msg)
+	arclogger.Debug(msg...)
 }
 
 //Error error
 func Error(msg ...interface{}) {
-	logger.Error(msg)
+	arclogger.Error(msg...)
 }
 
 //Fatal fatal
 func Fatal(msg ...interface{}) {
-	logger.Fatal(msg)
+	arclogger.Fatal(msg...)
+}
+
+//Debugf debugf
+func Debugf(msg ...interface{}) {
+	arclogger.Debugf(msg...)
+}
+
+//Errorf errorf
+func Errorf(msg ...interface{}) {
+	arclogger.Errorf(msg...)
+}
+
+//Fatalf fatalf
+func Fatalf(msg ...interface{}) {
+	arclogger.Fatalf(msg...)
 }
