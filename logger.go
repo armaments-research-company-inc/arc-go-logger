@@ -22,7 +22,7 @@ func Initialize(conf *Config) {
 		arclogger = logrus.New()
 		arclogger.SetFormatter(&easy.Formatter{
 			TimestampFormat: "2006-01-02 15:04:05",
-			LogFormat:       "[%time%] %lvl%: %msg% \n",
+			LogFormat:       `{"time": "%time%", "level": " %lvl% ", "message": " %msg% "}` + "\n",
 		})
 
 		if conf == nil {
