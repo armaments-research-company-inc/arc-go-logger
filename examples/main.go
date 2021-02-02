@@ -1,7 +1,7 @@
 package main
 
 import (
-	logger "github.com/armaments-research-company-inc/arc-go-logger"
+	logger "gitlab.com/arc-rte/arc-go-logger"
 )
 
 func main() {

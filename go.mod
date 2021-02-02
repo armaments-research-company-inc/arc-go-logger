@@ -1,4 +1,4 @@
-module github.com/armaments-research-company-inc/arc-go-logger
+module gitlab.com/arc-rte/arc-go-logger
 
 go 1.13
 
